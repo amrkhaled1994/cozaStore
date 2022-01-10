@@ -321,14 +321,24 @@ li{
 .product .content span:hover .search2{
     color: white;
 }
-.product .content ul li a{
-    margin-right: 40px;
+.product .content ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.product .content ul li{
     color: #797979;
     font-size: 15px;
     line-height: 1.2;
     transition: all .5s;
+    cursor: pointer;
+    padding: 8px 20px;
+    margin: 5px;
 }
-.product .content ul li a:hover{
+.product .content ul .active{
+    background-color: #03a9f4;
+    color: #fff;
+}
+.product .content ul li:hover{
     border-bottom: 1px solid black;
     color: black;
 }
@@ -623,7 +633,7 @@ li{
     font-weight: bold;
 }
 .product .content2 ul{
-    margin-left: 34%;
+    margin-left: 30%;
 }
 .owl-carousel .owl-nav button.owl-prev{
     left: 0px;
@@ -1445,7 +1455,7 @@ li{
         left: 0%;
     }
     .product .content2 ul {
-        margin-left: 22%;
+        margin-left: 15%;
     }
     .table .mycart .cont .price {
         width: 65.5%;
@@ -1495,7 +1505,10 @@ li{
         font-size: 40px;
     }
     .product .content2 ul {
-        margin-left: 15%;
+        margin-left: 5%;
+    }
+    .product .content ul li {
+        padding: 8px 10px;
     }
     .cards .card {
         margin-top: 20px;

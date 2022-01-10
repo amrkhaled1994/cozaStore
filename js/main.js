@@ -139,6 +139,22 @@ $("#shopcart").click(function(){
     $('#content').slideToggle()
 })
 
+$(document).ready(function(){
+    $(".list").click(function(){
+        const value = $(this).attr("data-filter")
+        if(value=="all"){
+            $(".mycard").show("1000")
+        }
+        else{
+            $(".mycard").not("."+value).hide("1000")
+            $(".mycard").filter("."+value).show("1000")
+        }
+    })
+    //add active to all class when i click
+    $(".list").click(function(){
+        $(this).addClass("active").siblings().removeClass()
+    })
+})
 //$("#women").click(function(){
 //    $("#womenshop").show()
 //   $("#card").hide()

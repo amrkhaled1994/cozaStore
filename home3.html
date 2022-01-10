@@ -78,7 +78,7 @@
         <h2 class="cart-total-title">total</h2>
         <span class="cart-total-price">$0</span>
     </div>
-    <button class="btn btn-primary btn-purchase" type="button">purchase</button>
+    <a class="btn btn-primary btn-purchase" type="button" href="shopingcart.html">purchase</a> 
 </section>
 <!--end cart-->
 <!--start body-->
@@ -143,35 +143,35 @@
     <div class="row">
         <div class="col-lg-6 col-md-6">
             <div class="card">
-                <div class="overlay"><a class="down" href="">Shop Now</a></div>
+                <div class="overlay"><a class="down" href="shop.html">Shop Now</a></div>
                 <h2>Women</h2>
                 <span>New Trend</span>
             </div>
         </div>
         <div class="col-lg-6 col-md-6">
             <div class="card card2">
-                <div class="overlay"><a class="down" href="">Shop Now</a></div>
+                <div class="overlay"><a class="down" href="shop.html">Shop Now</a></div>
                 <h2>Men</h2>
                 <span>New Trend</span>
             </div>
         </div>
         <div class="col-lg-4 col-md-6">
             <div class="card card5">
-                <div class="overlay"><a class="down" href="">Shop Now</a></div>
+                <div class="overlay"><a class="down" href="shop.html">Shop Now</a></div>
                 <h2>Watches</h2>
                 <span>Spring 2018</span>
             </div>
         </div>
         <div class="col-lg-4 col-md-6">
             <div class="card card6">
-                <div class="overlay"><a class="down" href="">Shop Now</a></div>
+                <div class="overlay"><a class="down" href="shop.html">Shop Now</a></div>
                 <h2>Bags</h2>
                 <span>Spring 2018</span>
             </div>
         </div>
         <div class="col-lg-4 col-md-6">
             <div class="card card7">
-                <div class="overlay"><a class="down" href="">Shop Now</a></div>
+                <div class="overlay"><a class="down" href="shop.html">Shop Now</a></div>
                 <h2>Accessories</h2>
                 <span>Spring 2018</span>
             </div>
@@ -188,7 +188,12 @@
         </div>
         <div class="content">
             <ul>
-                <li><a href="">All product</a><a id="women" href="">Women</a><a href="">Men</a><a href="">Bag</a><a href="">Shoes</a><a href="">Watches</a></li>
+                <li class="list active" data-filter="all">All product</li>
+                <li class="list" data-filter="women">Women</li>
+                <li class="list" data-filter="men">Men</li>
+                <li class="list" data-filter="bag">Bag</li>
+                <li class="list" data-filter="shoes">Shoes</li>
+                <li class="list" data-filter="Watches">Watches</li>
             </ul>
             <div>
             <span><i class="far fa-sort-amount-up"></i>Filter</span>
@@ -198,7 +203,7 @@
         <div id="hide"><input type="text" placeholder="Search"></div>
         <div class="row">
             <div class="col-lg-3 col-md-4">
-                <div class="mycard" id="womenshop">
+                <div class="mycard women" id="womenshop">
                     <div class="layout">
                     <img class="shop-item-image" src="img/xproduct-01.jpg.pagespeed.ic.6WHvZRJRuO.jfif" alt="">
                 </div>
@@ -210,7 +215,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-4">
-                <div class="mycard" id="womenshop">
+                <div class="mycard women" id="womenshop">
                     <div class="layout">
                     <img class="shop-item-image" src="img/xproduct-02.jpg.pagespeed.ic._mIojWDfEX.jfif" alt="">
                 </div>
@@ -222,7 +227,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-4">
-                <div class="mycard" id="card">
+                <div class="mycard men" id="card">
                     <div class="layout">
                     <img class="shop-item-image" src="img/xproduct-03.jpg.pagespeed.ic.eOHs429Gtb.jfif" alt="">
                 </div>
@@ -234,7 +239,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-4">
-                <div class="mycard" id="womenshop">
+                <div class="mycard women" id="womenshop">
                     <div class="layout">
                     <img class="shop-item-image" src="img/xproduct-04.jpg.pagespeed.ic.1MaP4euDx9.jfif" alt="">
                 </div>
@@ -246,7 +251,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-4">
-                <div class="mycard" id="card">
+                <div class="mycard women" id="card">
                     <div class="layout">
                     <img class="shop-item-image" src="img/xproduct-05.jpg.pagespeed.ic.GHcB3Nc9zp.webp" alt="">
                 </div>
@@ -258,7 +263,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-4">
-                <div class="mycard" id="card">
+                <div class="mycard Watches" id="card">
                     <div class="layout">
                     <img class="shop-item-image" src="img/xproduct-06.jpg.pagespeed.ic.mU9c3gp9yp.webp" alt="">
                 </div>
@@ -270,7 +275,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-4">
-                <div class="mycard" id="card">
+                <div class="mycard women" id="card">
                     <div class="layout">
                     <img class="shop-item-image" src="img/xproduct-07.jpg.pagespeed.ic.wXz93SW1CF.webp" alt="">
                 </div>
@@ -282,7 +287,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-4">
-                <div class="mycard" id="card">
+                <div class="mycard women" id="card">
                     <div class="layout">
                     <img class="shop-item-image" src="img/xproduct-08.jpg.pagespeed.ic.zcR_ZfXlFq.webp" alt="">
                 </div>
@@ -294,7 +299,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-4">
-                <div class="mycard" id="card">
+                <div class="mycard shoes" id="card">
                     <div class="layout">
                     <img class="shop-item-image" src="img/xproduct-09.jpg.pagespeed.ic._ex9y9IVR9.webp" alt="">
                 </div>
@@ -306,7 +311,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-4">
-                <div class="mycard" id="card">
+                <div class="mycard women" id="card">
                     <div class="layout">
                     <img class="shop-item-image" src="img/xproduct-10.jpg.pagespeed.ic.JKjq4oUn3E.webp" alt="">
                 </div>
@@ -318,7 +323,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-4">
-                <div class="mycard" id="card">
+                <div class="mycard men" id="card">
                     <div class="layout">
                     <img class="shop-item-image" src="img/xproduct-11.jpg.pagespeed.ic.fJxJBqHZzv.webp" alt="">
                 </div>
@@ -330,7 +335,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-4">
-                <div class="mycard" id="card">
+                <div class="mycard bag" id="card">
                     <div class="layout">
                     <img class="shop-item-image" src="img/xproduct-12.jpg.pagespeed.ic.Ft0-TDvq7W.webp" alt="">
                 </div>
@@ -342,7 +347,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-4">
-                <div class="mycard" id="card">
+                <div class="mycard women" id="card">
                     <div class="layout">
                     <img class="shop-item-image" src="img/xproduct-13.jpg.pagespeed.ic.jIjGx2QblE.webp" alt="">
                 </div>
@@ -354,7 +359,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-4">
-                <div class="mycard" id="card">
+                <div class="mycard shoes" id="card">
                     <div class="layout">
                     <img class="shop-item-image" src="img/xproduct-14.jpg.pagespeed.ic.rUWpWgkkYK.webp" alt="">
                 </div>
@@ -366,7 +371,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-4">
-                <div class="mycard" id="card">
+                <div class="mycard Watches" id="card">
                     <div class="layout">
                     <img class="shop-item-image" src="img/xproduct-15.jpg.pagespeed.ic.LNG1pmoqOY.webp" alt="">
                 </div>
@@ -378,7 +383,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-4">
-                <div class="mycard" id="card">
+                <div class="mycard women" id="card">
                     <div class="layout">
                     <img class="shop-item-image" src="img/xproduct-16.jpg.pagespeed.ic.AbLwZITYaU.webp" alt="">
                 </div>
